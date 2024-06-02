@@ -1,0 +1,18 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "repro-panel-tabulator-editing"
+version = "0.1.0"
+description = ""
+authors = ["Evgeny Arshinov <earshinov@gmail.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ipykernel = "^6.29.4"
+jupyter-bokeh = {git = "https://github.com/bokeh/jupyter_bokeh.git", rev = "main"}
+pandas = "^2.2.2"
+panel = "^1.4.4"
+bokeh = "^3.4.1"
